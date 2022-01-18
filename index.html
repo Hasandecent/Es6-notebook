@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/c7d8df87b8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>NOTEBOOK ES6</title>
+</head>
+
+<body>
+
+  <div class='light x1'></div>
+  <div class='light x2'></div>
+  <div class='light x3'></div>
+  <div class='light x4'></div>
+  <div class='light x5'></div>
+  <div class='light x6'></div>
+  <div class='light x7'></div>
+  <div class='light x8'></div>
+  <div class='light x9'></div>
+  
+    <div class="container mt-4">
+        <h1 class="display-4 text-center">
+            <i class="fas fa-chalkboard-teacher"></i>
+            NOTEBOOK
+        </h1>
+        <form id="note-form">
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" id="input1" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="content">Content</label>
+                <textarea class="form-control" id="input2" rows="3"></textarea>
+            </div>
+        
+            <input type="submit" value="Add Note" class="btn btn-primary btn-block">
+            <input type="text" id="noteid" class="hidden">
+        </form>
+        <div id="card-outer" class="mt-5 d-flex flex-wrap">
+            
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
